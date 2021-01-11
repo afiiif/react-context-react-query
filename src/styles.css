@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+pre {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.flex>div {
+    width: 33.3333%;
+    padding-bottom: 24px;
+}
+
+.flex>div:not(:last-child) {
+    padding-right: 24px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #777;
+}
+
+.json {
+    background: #eee;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    font-size: 12px;
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 24px;
+}
+
+.json-2 {
+    background: #c2e7ff;
+}
